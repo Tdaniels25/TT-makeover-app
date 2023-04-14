@@ -1,0 +1,96 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+span {
+	color: #ee892f !important;
+}
+
+
+ a:hover{
+	color: #ee892f !important;	
+}
+.logo-default, .logo-dark{
+	display: left;
+}
+
+.section-about-us{
+	position: fixed;
+
+}
+.fancy-title h4{
+	border-bottom:none;
+	border-bottom: 2px solid #ee892f;
+}
+
+ 
+.search-form {
+	background-color: #fff;
+	border: 2px solid #ee892f;
+	border-radius: 5px;
+	padding: 18px;
+	box-shadow: none;
+  }
+  
+  
+  .input-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .form-control {
+	flex-grow: 1;
+	height: 50px;
+	padding: 18px;
+	margin-right: 18px;
+	border: 1px solid #ee892f; 
+	font-size: 18px;
+	background-color: #fff;
+  }
+  .form-control:focus {
+	outline: none;
+	box-shadow: none;
+  }
+  .service {
+	flex-grow: 1;
+	height: 50px;
+	padding: 18px;
+	margin-right: 15px;
+	border:1px solid #ee892f;
+	font-size: 18px;
+	background-color: #fff;
+  }
+  .btn-search {
+	height: 50px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #ee892f;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	outline: none;
+  }
+  
+  .btn-search:hover {
+	background-color: #fff;
+	color: #ee892f;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.form-control {
+	  margin-right: 0;
+	  margin-bottom: 10px;
+	}
+  }
+
+  #gotoTop {
+	background-color: #91B187;
+  }
+
+  #gotoTop:hover{
+	background-color: #91B187 !important;
+  }
